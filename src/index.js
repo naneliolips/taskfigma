@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Sidecard from './components/sidecard';
 import reportWebVitals from './reportWebVitals';
+import Maincard from './components/main-card';
+import Formcard from './components/form-card';
+import SecondFormcard from './components/second-form-card';
+import Frame from './components/frame';
+import axios from 'axios';  
+import DropFonts from './components/fontsMenu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Formcard />
+    <DropFonts />
+    
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

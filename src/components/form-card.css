@@ -1,0 +1,124 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.formcard-container {
+    height: 543px;
+    width: 720px;
+    left: 1000px;
+    top: 283px;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 2;
+}
+
+.headerDiv {
+    height: 77px;
+    width: 371px;
+    padding-left: 174px;
+    padding-top: 86px;
+    border-radius: nullpx;
+}
+
+.headerText {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.adverdDiv {
+    height: 48px;
+    width: 312px;
+    padding-left: 100px;
+    padding-top: 10px;
+    border-radius: nullpx;
+
+}
+
+.adverdText {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+
+.form-div {
+
+    height: 41px;
+    width: 350px;
+    padding-left: 185px;
+    padding-top: 20px;
+    border-radius: 0px;
+}
+
+.formText {
+    height: 41px;
+    width: 350px;
+    border-radius: nullpx;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    background-color: #EDEDED;
+    border-color: #EDEDED;
+}
+
+.formText::placeholder {
+    color: #000000;
+    padding-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.buttonDiv {
+
+    width: 355px;
+    height: 41px;
+    margin-top: 20px;
+    margin-left: 185px;
+
+    background: #639105;
+}
+
+.button {
+    width: 355px;
+    height: 41px;
+    background: #639105;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    border-radius: nullpx;
+    border-color: #EDEDED;
+}
+
+.imgDiv {
+    height: 40px;
+    width: 40px;
+    border-radius: 0px;
+    margin-left: 665px;
+    margin-top: -434px;
+    background-color: #639105;
+    border-radius: 40px;
+
+}
+
+.imgClose {
+    padding-left: 13px;
+    padding-top: 12px;
+}

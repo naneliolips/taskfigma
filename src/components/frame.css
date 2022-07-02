@@ -1,0 +1,92 @@
+.frame-container {
+    position: relative;
+    width: 936px;
+    height: 613px;
+    margin-top: 1250px;
+
+    background: #ffffff;
+}
+
+.invalidİnput {
+    position: absolute;
+    width: 350px;
+    height: 41px;
+    left: 42px;
+    top: 38px;
+    border: none;
+
+    background: #EDEDED;
+}
+
+.invalidLabel {
+    position: absolute;
+    width: 207px;
+    height: 17px;
+    left: 72px;
+    top: 83px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EA0F0F;
+}
+
+.imgWarning {
+    padding-left: 55px;
+    padding-top: 85px;
+
+}
+
+.emailİnput {
+    position: absolute;
+    width: 350px;
+    height: 41px;
+    left: 42px;
+    top: 135px;
+    border: none;
+
+    background: #EDEDED;
+}
+
+.invalidİnput::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 10px;
+
+    color: #000000;
+}
+
+.emailLabel {
+    position: absolute;
+    width: 380px;
+    height: 17px;
+    padding-top: 80px;
+    padding-left: 55px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EA0F0F;
+}
+
+.imgWarning2 {
+    padding-right: 3px;
+}
+
+.emailİnput::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 10px;
+    color: #000000;
+}

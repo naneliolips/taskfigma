@@ -1,0 +1,164 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidecard-container {
+    position: absolute;
+    width: 480px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+
+    background: #FFFFFF;
+}
+
+.sidecard-title {
+    position: absolute;
+    width: 191px;
+    height: 29px;
+    left: 65px;
+    top: 81px;
+
+}
+
+.sidecard-title-text {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.input-title-body {
+    position: absolute;
+    width: 68px;
+    height: 19px;
+    left: 65px;
+    top: 143px;
+}
+
+.input-title-second-body {
+    position: absolute;
+    width: 88px;
+    height: 19px;
+    left: 65px;
+    top: 256px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.input-title-third-body {
+    position: absolute;
+    width: 139px;
+    height: 19px;
+    left: 65px;
+    top: 431px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+
+}
+
+.input-title {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.input-div {
+    box-sizing: border-box;
+    position: relative;
+    width: 350px;
+    height: 48px;
+    left: 65px;
+    top: 172px;
+    border: 1px solid #D2DAE3;
+    border-radius: 8px;
+}
+
+.input-div::placeholder {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.input-second-div {
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 103px;
+    left: 65px;
+    top: 285px;
+    border: 1px solid #D2DAE3;
+    border-radius: 8px;
+    resize: none;
+}
+
+.input-second-div::placeholder {
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.input-third-div {
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 48px;
+    left: 65px;
+    top: 460px;
+    border: 1px solid #D2DAE3;
+    border-radius: 8px;
+}
+
+.input-third-div::placeholder {
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}

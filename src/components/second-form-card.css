@@ -1,0 +1,31 @@
+.second-form-card {
+    height: 543px;
+    width: 720px;
+    left: 1000px;
+    top: 283px;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 2;
+
+}
+
+.img {
+    padding-left: 297px;
+    padding-top: 192px;
+}
+
+.centerDiv {
+    position: absolute;
+    width: 259px;
+    height: 77px;
+    padding-left: 230px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+}
