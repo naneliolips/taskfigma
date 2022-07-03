@@ -4,7 +4,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 
-export default function FontsMenu() {
+export default function FontsMenu({ font }) {
   const [fonts, setFonts] = useState([]);
   const [fontFamilyList, setFontFamilyList] = useState([]);
 

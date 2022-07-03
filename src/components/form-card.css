@@ -122,3 +122,7 @@
     padding-left: 13px;
     padding-top: 12px;
 }
+.imgClose:active + .formcard-container + .close {
+    visibility: hidden;
+  
+}
