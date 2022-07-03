@@ -27,7 +27,7 @@ function Formcard() {
                     <input name="name" value={form.name} onChange={handleChange} type="text" className="formText" placeholder="Your name"></input>
                 </div>
                 <div className="form-div">
-                    <input type="email" value={form.email} onChange={handleChange} className="formText" placeholder="Email"></input>
+                    <input type="email" name='mail' value={form.email} onChange={handleChange} className="formText" placeholder="Email"></input>
                 </div>
                 <div className="form-div">
                     <Header />
