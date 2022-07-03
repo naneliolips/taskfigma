@@ -31,14 +31,14 @@ export default function FontsMenu() {
   // eslint-disable-next-line no-lone-blocks
   return (
     <>
-      <select value={selectedFont} onChange={handleChange}>
+      <select className="fonts-menu" value={selectedFont} onChange={handleChange}>
         {fontFamilyList.map((fontFamily, index) => (
           <option key={index} value={fontFamily}>
             {fontFamily}
           </option>
         ))}
       </select>
-      <span>Seçilen Font:</span> {selectedFont}
+
     </>
   );
 }

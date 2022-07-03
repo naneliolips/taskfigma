@@ -1,37 +1,6 @@
-.fontİnputdiv {
-    position: absolute;
-    width: 350px;
-    height: 100%;
-
-
-    background: #c71b1b;
-}
-
 .font-menu {
-    position: absolute;
-    width: 350px;
-    height: 41px;
-    background: #EDEDED;
-}
-
-.fontsText {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    padding-left: 10px;
-    padding-top: 10px;
-
-
-    color: #000000;
-}
-
-.arrow {
-    margin-left: 180px;
-    height: 6.499500274658203px;
-    width: 10.987467765808105px;
-    overflow: hidden;
-    border-radius: 0px;
-
+            width: 350px;
+                height: 41px;
+                
+                background: #a16868;
 }

@@ -68,7 +68,7 @@
     line-height: 19px;
     color: #000000;
     background-color: #EDEDED;
-    border-color: #EDEDED;
+    border: none;
 }
 
 .formText::placeholder {
