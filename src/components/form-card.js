@@ -13,14 +13,21 @@ function Formcard() {
     const [fontFamilyList, setFontFamilyList] = useState([]);
 
     const [selectedFont, setSelectedFont] = useState("");
+    const [form, setForm] = useState({ name: '', email: '', font: '' });
+
+    const handleChange = (event) => {
+        setForm({ ...form, [event.target.name]: event.target.value })
+        console.log(form);
+    }
 
     const handleChange2 = (ev) => {
         setSelectedFont(ev.target.value);
+        setForm({ ...form, font: ev.target.value });
     };
 
     useEffect(() => {
 
-        axios.get("https://apiv2.popupsmart.com/api/googlefont%22")
+        axios.get("https://apiv2.popupsmart.com/api/googlefont")
             .then((response) => {
                 setFonts(response.data);
             });
@@ -32,12 +39,6 @@ function Formcard() {
         );
     }, [fonts]);
 
-
-    const [form, setForm] = useState({ name: '', email: '', font: '' });
-    const handleChange = (event) => {
-        setForm({ ...form, [event.target.name]: event.target.value })
-        console.log(form);
-    }
 
     return (
         <div className="formcard-container">
@@ -55,7 +56,8 @@ function Formcard() {
                     <input type="email" name="email" value={form.email} onChange={handleChange} className="formText" placeholder="Email"></input>
                 </div>
                 <div className="form-div">
-                    <Header onChange={handleChange2} Header fonts={fonts} selectedFont={selectedFont} fontFamilyList={fontFamilyList} />
+                    <input type="hidden" name="font" value={form.font} />
+                    <Header handleChange={handleChange2} fonts={fonts} selectedFont={selectedFont} fontFamilyList={fontFamilyList} />
                 </div>
                 <div className='buttonDiv'>
                     <button className='button'>GET MY 30% OFF </button>
