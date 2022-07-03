@@ -1,6 +1,7 @@
 import React from 'react';
 import './form-card.css';
 import Vector from '../assets/Vector.png';
+import Header from './fontsMenu';
 
 
 
@@ -22,7 +23,7 @@ function formcard() {
                 <input type="text" className="formText" placeholder="Email"></input>
             </div>
             <div className="form-div">
-                <input type="text" className="formText" placeholder="Fonts"></input>
+                <Header />
             </div>
             <div className='buttonDiv'>
                 <button className='button'>GET MY 30% OFF </button>
