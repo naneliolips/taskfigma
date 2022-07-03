@@ -7,15 +7,14 @@ import Maincard from './components/main-card';
 import Formcard from './components/form-card';
 import SecondFormcard from './components/second-form-card';
 import Frame from './components/frame';
-import axios from 'axios';  
 import DropFonts from './components/fontsMenu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Formcard />
-    <DropFonts />
-    
+
+
   </React.StrictMode>
 );
 reportWebVitals();
