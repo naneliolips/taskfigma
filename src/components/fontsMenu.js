@@ -2,7 +2,7 @@ import React from "react";
 import "./fontMenu.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import arrow from "../assets/downarrow.png";
+
 
 export default function FontsMenu() {
   const [fonts, setFonts] = useState([]);
