@@ -6,7 +6,7 @@
     top: 197px;
     background-color: #585B68;
     top: 0px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .maincard-image {

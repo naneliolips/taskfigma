@@ -13,9 +13,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Formcard />
-    <Frame />
-
-
+    <Sidecard />
+    <Maincard />
   </React.StrictMode>
 );
 reportWebVitals();
